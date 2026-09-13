@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alexlewiscreativeconsultant.com/sitemap.xml
+Sitemap: https://alexlewiscreative.com/sitemap.xml
