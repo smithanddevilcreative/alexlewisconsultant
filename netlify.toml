@@ -2,16 +2,11 @@
   publish = "dist"
 
 [[redirects]]
-  from = "https://alexlewiscreativeconsultant.com/*"
+  from = "/*"
   to = "https://alexlewiscreative.com/:splat"
   status = 301
   force = true
-
-[[redirects]]
-  from = "https://www.alexlewiscreativeconsultant.com/*"
-  to = "https://alexlewiscreative.com/:splat"
-  status = 301
-  force = true
+  conditions = {Host = ["alexlewiscreativeconsultant.com", "www.alexlewiscreativeconsultant.com"]}
 
 [[headers]]
   for = "/*"
