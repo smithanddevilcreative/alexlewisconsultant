@@ -1,13 +1,6 @@
 [build]
   publish = "dist"
 
-[[redirects]]
-  from = "/*"
-  to = "https://alexlewiscreative.com/:splat"
-  status = 301
-  force = true
-  conditions = {Host = ["alexlewiscreativeconsultant.com", "www.alexlewiscreativeconsultant.com"]}
-
 [[headers]]
   for = "/*"
   [headers.values]
